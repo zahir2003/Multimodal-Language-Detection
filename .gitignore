@@ -29,6 +29,7 @@ indic_lang_id_results/
 !Data Augmentation.ipynb
 !Speech Model Training.ipynb
 !Text Model Training.ipynb
+!Download_Dataset.ipynb
 
 # ===============================
 # Ignore temporary notebooks
