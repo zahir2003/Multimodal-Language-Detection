@@ -1,0 +1,64 @@
+# ===============================
+# Dataset (VERY LARGE - DO NOT PUSH)
+# ===============================
+Major Project Dataset/
+
+# ===============================
+# Result folders
+# ===============================
+results/
+speech_model_results/
+text_model_results/
+indic_lang_id_results/
+
+# ===============================
+# Jupyter checkpoints
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Ignore all notebooks
+# ===============================
+*.ipynb
+
+# ===============================
+# Allow only required notebooks
+# ===============================
+!File to CSV.ipynb
+!Audio Conversion 2.ipynb
+!Data Augmentation.ipynb
+!Speech Model Training.ipynb
+!Text Model Training.ipynb
+
+# ===============================
+# Ignore temporary notebooks
+# ===============================
+Untitled.ipynb
+Untitled1.ipynb
+Untitled2.ipynb
+
+# ===============================
+# Python cache
+# ===============================
+__pycache__/
+*.pyc
+
+# ===============================
+# Audio files
+# ===============================
+*.wav
+*.mp3
+*.flac
+
+# ===============================
+# Model weights
+# ===============================
+*.pt
+*.pth
+*.h5
+
+# ===============================
+# System files
+# ===============================
+.DS_Store
+Thumbs.db
