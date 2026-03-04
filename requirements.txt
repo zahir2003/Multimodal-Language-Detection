@@ -2,22 +2,35 @@
 numpy==1.26.4
 pandas==2.3.3
 scikit-learn==1.7.2
+scipy==1.13.1
+
+# Visualization (for training curves and confusion matrix)
 matplotlib==3.10.7
 seaborn==0.13.2
 
 # Deep learning
 torch==2.6.0
 torchaudio==2.6.0
+
+# HuggingFace ecosystem
 transformers==4.57.3
+accelerate==0.34.2
+datasets==2.20.0
+huggingface-hub==0.24.6
 
 # Audio processing
 librosa==0.11.0
 soundfile==0.13.1
 soxr==1.0.0
+resampy==0.4.3
 
 # Utilities
 tqdm==4.67.1
+pyyaml==6.0.2
 
-# Jupyter environment
+# Logging & monitoring
+tensorboard==2.17.1
+
+# Jupyter environment (optional for HPC)
 notebook==7.2.2
 ipykernel==6.29.5
