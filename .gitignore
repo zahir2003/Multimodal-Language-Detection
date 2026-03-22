@@ -1,65 +1,145 @@
 # ===============================
-# Dataset (VERY LARGE - DO NOT PUSH)
-# ===============================
-Major Project Dataset/
+
+# 📁 DATASETS (VERY LARGE)
 
 # ===============================
-# Result folders
+
+Major Project Dataset/
+data/
+datasets/
+*.csv
+*.tsv
+
 # ===============================
-results/
+
+# 📊 RESULTS / OUTPUTS
+
+# ===============================
+
+results*/
 speech_model_results/
 text_model_results/
 indic_lang_id_results/
+**/runs/
+**/*.tfevents*
+logs/
+outputs/
 
 # ===============================
-# Jupyter checkpoints
-# ===============================
-.ipynb_checkpoints/
+
+# 🎧 AUDIO FILES
 
 # ===============================
-# Ignore all notebooks
+
+*.wav
+*.mp3
+*.flac
+*.ogg
+
 # ===============================
+
+# 🧠 MODEL FILES / WEIGHTS
+
+# ===============================
+
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+
+# ===============================
+
+# 🐍 PYTHON CACHE
+
+# ===============================
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+
+# 📓 JUPYTER NOTEBOOKS
+
+# ===============================
+
+# Ignore all notebooks first
+
 *.ipynb
 
-# ===============================
-# Allow only required notebooks
-# ===============================
+# Allow only important notebooks
+
+!Speech Model Training.ipynb
+!Text Model Training.ipynb
 !File to CSV.ipynb
 !Audio Conversion 2.ipynb
 !Data Augmentation.ipynb
-!Speech Model Training.ipynb
-!Text Model Training.ipynb
 !Download_Dataset.ipynb
 
-# ===============================
 # Ignore temporary notebooks
-# ===============================
+
 Untitled.ipynb
 Untitled1.ipynb
 Untitled2.ipynb
 
-# ===============================
-# Python cache
-# ===============================
-__pycache__/
-*.pyc
+# Jupyter checkpoints
+
+.ipynb_checkpoints/
 
 # ===============================
-# Audio files
-# ===============================
-*.wav
-*.mp3
-*.flac
+
+# 🖥️ SYSTEM FILES
 
 # ===============================
-# Model weights
-# ===============================
-*.pt
-*.pth
-*.h5
 
-# ===============================
-# System files
-# ===============================
 .DS_Store
 Thumbs.db
+
+# ===============================
+
+# 🧪 VIRTUAL ENVIRONMENTS
+
+# ===============================
+
+venv/
+env/
+trans_env/
+.venv/
+
+# ===============================
+
+# 🔧 IDE / EDITOR FILES
+
+# ===============================
+
+.vscode/
+.idea/
+
+# ===============================
+
+# 📦 LOG FILES
+
+# ===============================
+
+*.log
+
+# ===============================
+
+# 🔐 ENV FILES (SECRETS)
+
+# ===============================
+
+.env
+.env.*
+
+# ===============================
+
+# 🧹 TEMP FILES
+
+# ===============================
+
+*.tmp
+*.temp
+*~
